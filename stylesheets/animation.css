@@ -1,0 +1,279 @@
+@keyframes map {
+  0%,
+  6.24% {
+    background-position: 0vw 0vw;
+  }
+  6.25%,
+  12.49% {
+    background-position: -100vw 0vw;
+  }
+  12.5%,
+  18.74% {
+    background-position: -200vw 0vw;
+  }
+  18.75%,
+  24.99% {
+    background-position: -300vw 0vw;
+  }
+  25%,
+  31.24% {
+    background-position: -400vw 0vw;
+  }
+  31.25%,
+  37.49% {
+    background-position: -500vw 0vw;
+  }
+  37.5%,
+  43.74% {
+    background-position: -600vw 0vw;
+  }
+  43.75%,
+  49.99% {
+    background-position: -700vw 0vw;
+  }
+
+  50%,
+  56.24% {
+    background-position: 0vw -62.5vw;
+  }
+  56.25%,
+  62.49% {
+    background-position: -100vw -62.5vw;
+  }
+  62.5%,
+  68.74% {
+    background-position: -200vw -62.5vw;
+  }
+  68.75%,
+  74.99% {
+    background-position: -300vw -62.5vw;
+  }
+  75%,
+  81.24% {
+    background-position: -400vw -62.5vw;
+  }
+  81.25%,
+  87.49% {
+    background-position: -500vw -62.5vw;
+  }
+  87.5%,
+  93.74% {
+    background-position: -600vw -62.5vw;
+  }
+  93.75%,
+  100% {
+    background-position: -700vw -62.5vw;
+  }
+}
+@keyframes eyes {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -100vw 0;
+  }
+}
+@keyframes left1 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 42.36vw;
+  }
+}
+@keyframes right1 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 42.36vw;
+  }
+}
+@keyframes pattern_1 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -42.36vw;
+  }
+}
+@keyframes pattern_2 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 42.36vw;
+  }
+}
+@keyframes metla_1 {
+  from {
+    transform: rotate(20deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes metla_2 {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes heart_pulse {
+  0% {
+    transform: scale(1);
+  }
+  18% {
+    transform: scale(1.18);
+  }
+  32% {
+    transform: scale(1.08);
+  }
+  55% {
+    transform: scale(1.14);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes homes {
+  0%,
+  33.32% {
+    background-position: 0vw 0vw;
+  }
+  33.33%,
+  66.65% {
+    background-position: -24.5vw 0vw;
+  }
+  66.66%,
+  100% {
+    background-position: -49vw 0vw;
+  }
+}
+@keyframes pattern6 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100vw 0;
+  }
+}
+@keyframes arrow_anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes windows {
+  0%,
+  49.99% {
+    background-position: 0vw 0vw;
+  }
+  50%,
+  100% {
+    background-position: -30.75vw 0vw;
+  }
+}
+@keyframes fire_1 {
+  0%,
+  49.99% {
+    background-position: 0vw 0vw;
+  }
+  50%,
+  100% {
+    background-position: -28.19vw 0vw;
+  }
+}
+@keyframes pattern_10 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100vw 0;
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+@keyframes pict_10 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes map_adap {
+  0%,
+  6.66% {
+    background-position: 0vw 0vw;
+  }
+  6.67%,
+  13.32% {
+    background-position: -100vw 0vw;
+  }
+  13.33%,
+  19.98% {
+    background-position: -200vw 0vw;
+  }
+  20%,
+  26.65% {
+    background-position: -300vw 0vw;
+  }
+  26.66%,
+  33.31% {
+    background-position: -400vw 0vw;
+  }
+  33.33%,
+  39.98% {
+    background-position: -500vw 0vw;
+  }
+  40%,
+  46.65% {
+    background-position: -600vw 0vw;
+  }
+  46.66%,
+  53.31% {
+    background-position: -700vw 0vw;
+  }
+  53.33%,
+  59.98% {
+    background-position: -800vw 0vw;
+  }
+  60%,
+  66.65% {
+    background-position: -900vw 0vw;
+  }
+  66.66%,
+  73.31% {
+    background-position: -1000vw 0vw;
+  }
+  73.33%,
+  79.98% {
+    background-position: -1100vw 0vw;
+  }
+  80%,
+  86.65% {
+    background-position: -1200vw 0vw;
+  }
+  86.66%,
+  93.31% {
+    background-position: -1300vw 0vw;
+  }
+  93.33%,
+  100% {
+    background-position: -1400vw 0vw;
+  }
+}

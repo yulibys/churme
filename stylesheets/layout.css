@@ -1,0 +1,962 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  position: absolute;
+  color: #23140d;
+  font-size: 4.44vw;
+}
+h3 {
+  font-family: Helvetica;
+  font-weight: normal;
+  position: absolute;
+  text-align: center;
+  color: #efdbbf;
+  font-size: 2.22vw;
+}
+h4 {
+  font-family: Helvetica;
+  font-weight: bold;
+  position: absolute;
+  color: #23140d;
+  font-size: 1.5vw;
+}
+h5 {
+  font-family: Helvetica;
+  position: absolute;
+  color: #91040c;
+  font-size: 1.5vw;
+}
+.section-1 {
+  width: 100vw;
+  height: 62.5vw;
+  background-image: url(../images/back1.svg);
+  background-repeat: no-repeat;
+  background-size: 800vw 125vw;
+  position: relative;
+  left: 0;
+  top: 0;
+  animation: map 6s infinite;
+}
+#text1 {
+  font-family: "mr_NeverSmile";
+  position: absolute;
+  align-items: center;
+  letter-spacing: -0.4vw;
+  font-size: 8.9vw;
+  color: #efdbbf;
+  top: 6.2vw;
+  left: 35.6vw;
+  text-transform: uppercase;
+}
+#text2 {
+  top: 30.3vw;
+  left: 22.5vw;
+}
+#text3 {
+  top: 31.9vw;
+  left: 23vw;
+}
+#text4 {
+  top: 52.1vw;
+  left: 33.2vw;
+}
+#text5 {
+  top: 53.5vw;
+  left: 30.7vw;
+}
+#text6 {
+  top: 40vw;
+  left: 42.5vw;
+}
+#text7 {
+  top: 41.4vw;
+  left: 41.6vw;
+}
+#text8 {
+  top: 26vw;
+  left: 58.1vw;
+}
+#text9 {
+  top: 27.7vw;
+  left: 58vw;
+  text-align: center;
+}
+#text10 {
+  top: 54.2vw;
+  left: 53.3vw;
+}
+#text11 {
+  top: 55.7vw;
+  left: 51vw;
+}
+.pers1 {
+  position: absolute;
+  width: 6.9vw;
+  height: 7.2vw;
+  background-image: url(../images/pers.svg);
+  background-repeat: no-repeat;
+  background-size: auto 7.2vw;
+  top: 18.54vw;
+  left: 39.375vw;
+}
+.pers2 {
+  position: absolute;
+  width: 6.9vw;
+  height: 7.2vw;
+  background-image: url(../images/pers.svg);
+  background-repeat: no-repeat;
+  background-size: auto 7.2vw;
+  top: 29.65vw;
+  right: 26.45vw;
+}
+.pers3 {
+  position: absolute;
+  width: 6.9vw;
+  height: 7.2vw;
+  background-image: url(../images/pers.svg);
+  background-repeat: no-repeat;
+  background-size: auto 7.2vw;
+  top: 35vw;
+  left: 34.23vw;
+}
+.pers4 {
+  position: absolute;
+  width: 6.9vw;
+  height: 7.2vw;
+  background-image: url(../images/pers.svg);
+  background-repeat: no-repeat;
+  background-size: auto 7.2vw;
+  bottom: 10.69vw;
+  right: 30.41vw;
+}
+.section-2 {
+  width: 100vw;
+  height: 52.5vw;
+  background-color: #23140d;
+  position: relative;
+}
+.eye {
+  width: 100vw;
+  height: 5.07vw;
+  position: absolute;
+  background-image: url(../images/back2.svg);
+  background-repeat: repeat-x;
+  background-size: auto 5.07vw;
+  animation: eyes 5s linear infinite;
+}
+.eye:hover {
+  animation-play-state: paused;
+}
+.left {
+  width: 11.38vw;
+  height: 42.36vw;
+  position: absolute;
+  background-image: url(../images/left.svg);
+  background-repeat: repeat-y;
+  background-size: 11.38vw auto;
+  top: 5.07vw;
+  animation: left1 5s linear infinite;
+}
+.left:hover {
+  animation-play-state: paused;
+}
+.right {
+  width: 11.38vw;
+  height: 42.36vw;
+  position: absolute;
+  background-image: url(../images/right.svg);
+  background-repeat: repeat-y;
+  background-size: 11.38vw auto;
+  top: 5.07vw;
+  right: 0vw;
+  animation: right1 5s linear infinite;
+}
+.right:hover {
+  animation-play-state: paused;
+}
+.pattern1 {
+  width: 5.07vw;
+  height: 42.36vw;
+  position: absolute;
+  background-image: url(../images/pattern1.svg);
+  background-repeat: repeat-y;
+  background-size: 5.07vw auto;
+  top: 5.07vw;
+  left: 11.38vw;
+  animation: pattern_1 5s linear infinite;
+}
+.pattern1:hover {
+  animation-play-state: paused;
+}
+.pattern2 {
+  width: 5.07vw;
+  height: 42.36vw;
+  position: absolute;
+  background-image: url(../images/pattern1.svg);
+  background-repeat: repeat-y;
+  background-size: 5.07vw auto;
+  top: 5.07vw;
+  right: 11.38vw;
+  animation: pattern_2 5s linear infinite;
+}
+.pattern2:hover {
+  animation-play-state: paused;
+}
+.rect1 {
+  width: 67.1vw;
+  height: 13.4vw;
+  position: absolute;
+  background-color: #91040c;
+  top: 5.07vw;
+  left: 16.45vw;
+}
+#text12 {
+  font-family: "mr_NeverSmile";
+  position: absolute;
+  align-items: center;
+  letter-spacing: -0.2vw;
+  font-size: 6.5vw;
+  color: #efdbbf;
+  top: 0.9vw;
+  left: 9.8vw;
+  text-transform: uppercase;
+}
+#text13 {
+  font-family: "mr_NeverSmile";
+  position: absolute;
+  letter-spacing: -0.2vw;
+  font-size: 6.5vw;
+  color: #efdbbf;
+  top: 5.9vw;
+  left: 3.1vw;
+  text-transform: uppercase;
+}
+#text14 {
+  font-family: "mr_NeverSmile";
+  position: absolute;
+  letter-spacing: -0.2vw;
+  font-size: 6.5vw;
+  color: #efdbbf;
+  top: 5.9vw;
+  left: 44.8vw;
+  text-transform: uppercase;
+}
+.pattern3 {
+  width: 10.36vw;
+  height: 10.37vw;
+  position: absolute;
+  background-image: url(../images/pattern3.svg);
+  background-size: auto 10.36vw;
+  transform: rotate(25.12deg);
+  top: -1.5vw;
+  left: 0.73vw;
+  transition: transform 0.3s ease;
+}
+.pattern3:hover {
+  transform: rotate(-25.12deg);
+}
+.pattern4 {
+  width: 10.36vw;
+  height: 10.37vw;
+  position: absolute;
+  background-image: url(../images/pattern3.svg);
+  background-size: auto 10.36vw;
+  transform: rotate(-25.12deg);
+  transition: transform 0.3s ease;
+  top: 3.9vw;
+  left: 36.45vw;
+}
+.pattern4:hover {
+  transform: rotate(25.12deg);
+}
+.pattern5 {
+  width: 10.36vw;
+  height: 10.37vw;
+  position: absolute;
+  background-image: url(../images/pattern3.svg);
+  background-size: auto 10.36vw;
+  transform: rotate(-25.12deg);
+  transition: transform 0.3s ease;
+  top: -1.5vw;
+  right: 0.69vw;
+}
+.pattern5:hover {
+  transform: rotate(25.12deg);
+}
+.rect2 {
+  width: 67.1vw;
+  height: 29.02vw;
+  position: absolute;
+  background-color: #23140d;
+  left: 16.45vw;
+  bottom: 5vw;
+}
+.rect3 {
+  width: 33.55vw;
+  height: 29.02vw;
+  position: absolute;
+  background-color: #efdbbf;
+  left: 0vw;
+}
+.rect4 {
+  width: 33.55vw;
+  height: 29.02vw;
+  position: absolute;
+  background-color: #91040c;
+  right: 0vw;
+}
+.pattern7 {
+  width: 67.1vw;
+  height: 29.02vw;
+  position: absolute;
+  background-image: url(../images/pattern5.svg);
+  background-size: 67.1vw auto;
+  top: 0vw;
+  left: 0vw;
+}
+.metla1 {
+  width: 18.33vw;
+  height: 18.81vw;
+  position: absolute;
+  background-image: url(../images/metla1.svg);
+  background-size: auto 18.81vw;
+  top: 4.79vw;
+  left: 4.79vw;
+  animation: metla_1 0.7s ease infinite alternate;
+}
+.metla2 {
+  width: 18.33vw;
+  height: 18.81vw;
+  position: absolute;
+  background-image: url(../images/metla2.svg);
+  background-size: auto 18.81vw;
+  top: 4.79vw;
+  right: 2.79vw;
+  animation: metla_2 0.7s ease infinite alternate;
+}
+.heart {
+  width: 6.87vw;
+  height: 5.69vw;
+  position: absolute;
+  background-image: url(../images/heart.svg);
+  background-repeat: no-repeat;
+  background-size: auto 5.69vw;
+  top: 18.05vw;
+  left: 14.5vw;
+  animation: heart_pulse 2s ease infinite;
+  transform-origin: center center;
+  will-change: transform;
+  z-index: 999;
+  pointer-events: auto;
+}
+.heart:hover {
+  animation-play-state: paused;
+}
+.home {
+  width: 24.5vw;
+  height: 22.85vw;
+  background-image: url(../images/home.svg);
+  background-repeat: no-repeat;
+  background-size: 73.54vw auto;
+  position: absolute;
+  left: 3.05vw;
+  top: 3.3vw;
+  animation: homes 2s infinite;
+  z-index: 999;
+  pointer-events: auto;
+}
+.home:hover {
+  animation-play-state: paused;
+}
+.pattern6 {
+  width: 100vw;
+  height: 5.07vw;
+  position: absolute;
+  background-image: url(../images/pattern4.svg);
+  background-size: auto 5.07vw;
+  bottom: 0vw;
+  background-repeat: repeat-x;
+  background-size: auto 5.07vw;
+  animation: pattern_6 5s linear infinite;
+}
+.pattern6:hover {
+  animation-play-state: paused;
+}
+.section-3 {
+  width: 100vw;
+  height: 55.9vw;
+  background-color: #efdbbf;
+  position: relative;
+}
+.pattern8 {
+  width: 7.6vw;
+  height: 55.9vw;
+  position: absolute;
+  background-image: url(../images/pattern6.svg);
+  background-size: auto 55.9vw;
+  background-repeat: no-repeat;
+  top: 0vw;
+  left: 0vw;
+}
+.pattern9 {
+  width: 7.6vw;
+  height: 55.9vw;
+  position: absolute;
+  background-image: url(../images/pattern6.svg);
+  background-size: auto 55.9vw;
+  background-repeat: no-repeat;
+  top: 0vw;
+  right: 0vw;
+}
+#text15 {
+  font-family: "mr_NeverSmile";
+  position: absolute;
+  align-items: center;
+  letter-spacing: -0.4vw;
+  font-size: 8.9vw;
+  color: #91040c;
+  top: -0.16vw;
+  left: 23.68vw;
+  text-transform: uppercase;
+}
+.rect5 {
+  width: 73.05vw;
+  height: 45vw;
+  background-color: #91040c;
+  position: absolute;
+  top: 8.26vw;
+  left: 13.4vw;
+}
+.rect6 {
+  width: 18.75vw;
+  height: 0.27vw;
+  background-color: #23140d;
+  position: absolute;
+  top: 22vw;
+  left: 0vw;
+}
+.rect7 {
+  width: 18.75vw;
+  height: 0.27vw;
+  background-color: #23140d;
+  position: absolute;
+  top: 22vw;
+  right: 0vw;
+}
+.rect8 {
+  width: 0.27vw;
+  height: 8.75vw;
+  background-color: #23140d;
+  position: absolute;
+  top: 0vw;
+  left: 36vw;
+}
+.rect9 {
+  width: 0.27vw;
+  height: 8.75vw;
+  background-color: #23140d;
+  position: absolute;
+  bottom: 0vw;
+  left: 36vw;
+}
+.arrow {
+  width: 19.375vw;
+  height: 26.31vw;
+  position: absolute;
+  background-image: url(../images/arrow.svg);
+  background-size: auto 26.31vw;
+  background-repeat: no-repeat;
+  top: 9.58vw;
+  left: 26.56vw;
+  animation: arrow_anim 2s infinite ease-in-out alternate;
+  z-index: 900;
+  pointer-events: auto;
+}
+.arrow:hover {
+  animation-play-state: paused;
+}
+.eye1 {
+  width: 18.47vw;
+  height: 18.47vw;
+  position: absolute;
+  background-image: url(../images/eye.svg);
+  background-size: auto 18.47vw;
+  background-repeat: no-repeat;
+  top: 13.58vw;
+  left: 26.56vw;
+  z-index: 999;
+}
+.heart1 {
+  width: 2.22vw;
+  height: 2.01vw;
+  position: absolute;
+  background-image: url(../images/heart_little.svg);
+  background-repeat: no-repeat;
+  background-size: auto 2.01vw;
+  top: 21vw;
+  left: 35.2vw;
+  animation: heart_pulse 2s ease infinite;
+  transform-origin: center center;
+  will-change: transform;
+  z-index: 999;
+  pointer-events: auto;
+}
+.leaf {
+  width: 13.9vw;
+  height: 11vw;
+  position: absolute;
+  background-image: url(../images/leaf.svg);
+  background-size: auto 11vw;
+  background-repeat: no-repeat;
+  top: 1.8vw;
+  left: 9vw;
+}
+.mermaid {
+  width: 13.9vw;
+  height: 9vw;
+  position: absolute;
+  background-image: url(../images/mermaid.svg);
+  background-size: auto 9vw;
+  background-repeat: no-repeat;
+  top: 1.8vw;
+  right: 9vw;
+}
+#text16 {
+  top: 10.86vw;
+  left: 7.23vw;
+}
+#text17 {
+  top: 15.86vw;
+  left: 6.8vw;
+}
+#text18 {
+  top: 10.86vw;
+  right: 9.23vw;
+}
+#text19 {
+  top: 15.86vw;
+  right: 6.8vw;
+}
+.fire {
+  width: 7.9vw;
+  height: 10vw;
+  position: absolute;
+  background-image: url(../images/fire.svg);
+  background-size: auto 10vw;
+  background-repeat: no-repeat;
+  bottom: 10.3vw;
+  left: 12vw;
+}
+.mushroom {
+  width: 10.2vw;
+  height: 9.2vw;
+  position: absolute;
+  background-image: url(../images/mushroom.svg);
+  background-size: auto 9.2vw;
+  background-repeat: no-repeat;
+  bottom: 10.3vw;
+  right: 10vw;
+}
+#text20 {
+  bottom: 6vw;
+  left: 8.8vw;
+}
+#text21 {
+  bottom: 1.7vw;
+  left: 7.2vw;
+}
+#text22 {
+  bottom: 6vw;
+  right: 8.8vw;
+}
+#text23 {
+  bottom: 1.7vw;
+  right: 7.2vw;
+}
+.section-4 {
+  width: 100vw;
+  height: 53.2vw;
+  background-color: #efdbbf;
+  position: relative;
+}
+.pattern10 {
+  width: 100vw;
+  height: 5.07vw;
+  position: absolute;
+  background-image: url(../images/pattern4.svg);
+  background-repeat: repeat-x;
+  background-size: auto 5.07vw;
+  top: 0;
+  animation: pattern_10 5s linear infinite alternate;
+}
+.pattern10:hover {
+  animation-play-state: paused;
+}
+.marquee {
+  position: absolute;
+  top: 5.07vw;
+  width: 100vw;
+  height: 5.07vw;
+  overflow: hidden;
+}
+.marquee__track {
+  display: inline-flex;
+  gap: 4vw;
+  white-space: nowrap;
+  animation: marquee 3s linear infinite alternate;
+}
+
+.marquee__track span {
+  font-family: "mr_NeverSmile";
+  letter-spacing: -0.2vw;
+  font-size: 6vw;
+  color: #91040c;
+  top: -3.3vw;
+  left: 5.34vw;
+  text-transform: uppercase;
+}
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+.rect10 {
+  width: 100vw;
+  height: 32.92vw;
+  position: absolute;
+  background-color: #efdbbf;
+  top: 10.14vw;
+}
+.rect11 {
+  width: 51.84vw;
+  height: 32.92vw;
+  position: absolute;
+  background-color: #efdbbf;
+  top: 0vw;
+  left: 0vw;
+}
+.window {
+  width: 30.55vw;
+  height: 32.25vw;
+  background-image: url(../images/back3.svg);
+  background-repeat: no-repeat;
+  background-size: 66.5vw auto;
+  position: absolute;
+  left: 10.05vw;
+  top: 0.7vw;
+  animation: windows 2s ease infinite;
+  z-index: 999;
+  pointer-events: auto;
+}
+.window:hover {
+  animation-play-state: paused;
+}
+.rect12 {
+  width: 48.16vw;
+  height: 32.92vw;
+  position: absolute;
+  background-color: #23140d;
+  top: 0vw;
+  right: 0vw;
+}
+.pict1 {
+  width: 38.3vw;
+  height: 19.3vw;
+  background-image: url(../images/pict1.svg);
+  background-repeat: no-repeat;
+  background-size: 38.3vw auto;
+  position: absolute;
+  right: 5.05vw;
+  bottom: 3.7vw;
+}
+.pict2 {
+  width: 20.2vw;
+  height: 6.6vw;
+  background-image: url(../images/pict2.svg);
+  background-repeat: no-repeat;
+  background-size: auto 6.6vw;
+  position: absolute;
+  right: 13.7vw;
+  top: 2.3vw;
+}
+.fire1 {
+  width: 28.19vw;
+  height: 9.3vw;
+  background-image: url(../images/fire1.svg);
+  background-repeat: no-repeat;
+  background-size: 56.38vw auto;
+  position: absolute;
+  right: 11.05vw;
+  bottom: -3vw;
+  animation: fire_1 1s ease infinite;
+}
+.pattern11 {
+  width: 2.84vw;
+  height: 32.92vw;
+  position: absolute;
+  background-image: url(../images/pattern7.svg);
+  background-repeat: no-repeat;
+  background-size: auto 32.92vw;
+  top: 10.14vw;
+  left: 0vw;
+}
+.pattern12 {
+  width: 2.84vw;
+  height: 32.92vw;
+  position: absolute;
+  background-image: url(../images/pattern7.svg);
+  background-repeat: no-repeat;
+  background-size: auto 32.92vw;
+  top: 10.14vw;
+  left: 49.63vw;
+}
+.pattern13 {
+  width: 2.84vw;
+  height: 32.92vw;
+  position: absolute;
+  background-image: url(../images/pattern7.svg);
+  background-repeat: no-repeat;
+  background-size: auto 32.92vw;
+  top: 10.14vw;
+  right: 0vw;
+}
+.eye2 {
+  width: 100vw;
+  height: 5.07vw;
+  position: absolute;
+  background-image: url(../images/back2.svg);
+  background-repeat: repeat-x;
+  background-size: auto 5.07vw;
+  animation: eyes 5s linear infinite alternate;
+  bottom: 5.07vw;
+  left: 0vw;
+}
+.eye2:hover {
+  animation-play-state: paused;
+}
+.marquee1 {
+  position: absolute;
+  bottom: 0vw;
+  width: 100vw;
+  height: 5.07vw;
+  overflow: hidden;
+}
+.marquee__track1 {
+  display: inline-flex;
+  gap: 4vw;
+  white-space: nowrap;
+  animation: marquee 3s linear infinite alternate;
+}
+.marquee__track1 span {
+  font-family: "mr_NeverSmile";
+  letter-spacing: -0.2vw;
+  font-size: 6vw;
+  color: #91040c;
+  top: -3.3vw;
+  left: 5.34vw;
+  text-transform: uppercase;
+}
+.marquee1:hover .marquee__track1 {
+  animation-play-state: paused;
+}
+.section-5 {
+  width: 100vw;
+  height: 62.5vw;
+  background-color: #91040c;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.arrow1 {
+  width: 24.125vw;
+  height: 5.27vw;
+  position: absolute;
+  background-image: url(../images/arrow1.svg);
+  background-repeat: no-repeat;
+  background-size: auto 5.27vw;
+  top: 3.26vw;
+  left: -3.34vw;
+}
+.arrow2 {
+  width: 24.125vw;
+  height: 5.27vw;
+  position: absolute;
+  background-image: url(../images/arrow2.svg);
+  background-repeat: no-repeat;
+  background-size: auto 5.27vw;
+  top: 3.26vw;
+  right: -3.34vw;
+}
+#text24 {
+  font-family: "mr_NeverSmile";
+  position: absolute;
+  align-items: center;
+  letter-spacing: -0.4vw;
+  font-size: 8.9vw;
+  color: #efdbbf;
+  top: 1.38vw;
+  left: 22.3vw;
+  text-transform: uppercase;
+}
+.pict3 {
+  width: 21.3vw;
+  height: 22.3vw;
+  position: absolute;
+  background-image: url(../images/pict3.svg);
+  background-repeat: no-repeat;
+  background-size: auto 22.3vw;
+  top: 13.05vw;
+  left: 15.69vw;
+}
+.pict3:hover {
+  transform: skewX(8deg);
+}
+.pict4 {
+  width: 21.3vw;
+  height: 22.3vw;
+  position: absolute;
+  background-image: url(../images/pict4.svg);
+  background-repeat: no-repeat;
+  background-size: auto 22.3vw;
+  top: 13.05vw;
+  left: 39.3vw;
+}
+.pict4:hover {
+  transform: skewX(8deg);
+}
+.pict5 {
+  width: 21.3vw;
+  height: 22.3vw;
+  position: absolute;
+  background-image: url(../images/pict5.svg);
+  background-repeat: no-repeat;
+  background-size: auto 22.3vw;
+  top: 13.05vw;
+  right: 15.69vw;
+}
+.pict5:hover {
+  transform: skewX(8deg);
+}
+.pict6 {
+  width: 21.3vw;
+  height: 22.3vw;
+  position: absolute;
+  background-image: url(../images/pict6.svg);
+  background-repeat: no-repeat;
+  background-size: auto 22.3vw;
+  bottom: 2.91vw;
+  left: 15.69vw;
+}
+.pict6:hover {
+  transform: skewX(8deg);
+}
+.pict7 {
+  width: 21.3vw;
+  height: 22.3vw;
+  position: absolute;
+  background-image: url(../images/pict7.svg);
+  background-repeat: no-repeat;
+  background-size: auto 22.3vw;
+  bottom: 2.91vw;
+  left: 39.3vw;
+}
+.pict7:hover {
+  transform: skewX(8deg);
+}
+.pict8 {
+  width: 21.3vw;
+  height: 22.3vw;
+  position: absolute;
+  background-image: url(../images/pict8.svg);
+  background-repeat: no-repeat;
+  background-size: auto 22.3vw;
+  bottom: 2.91vw;
+  right: 15.69vw;
+}
+.pict8:hover {
+  transform: skewX(8deg);
+}
+.section-6 {
+  width: 100vw;
+  height: 19.78vw;
+  background-color: #91040c;
+  position: relative;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+.pattern14 {
+  width: 100vw;
+  height: 4.44vw;
+  position: absolute;
+  background-image: url(../images/pattern8.svg);
+  background-size: auto 4.44vw;
+  top: 0vw;
+  left: 0vw;
+}
+.rect13 {
+  width: 100vw;
+  height: 15.34vw;
+  background-color: #91040c;
+  position: absolute;
+  left: 0;
+  top: 4.44vw;
+}
+#text25 {
+  font-family: Helvetica;
+  font-weight: bold;
+  position: absolute;
+  color: #efdbbf;
+  font-size: 2.77vw;
+  top: 3.05vw;
+  left: 2.92vw;
+}
+#text26 {
+  font-family: Helvetica;
+  font-weight: bold;
+  position: absolute;
+  color: #efdbbf;
+  font-size: 2.77vw;
+  top: 5.9vw;
+  left: 2.92vw;
+}
+#text27 {
+  font-family: Helvetica;
+  font-weight: bold;
+  position: absolute;
+  color: #efdbbf;
+  font-size: 2.77vw;
+  top: 8.68vw;
+  left: 2.92vw;
+}
+.pict9 {
+  width: 19.375vw;
+  height: 7.7vw;
+  position: absolute;
+  background-image: url(../images/pict9.svg);
+  background-repeat: no-repeat;
+  background-size: auto 7.7vw;
+  top: 3.81vw;
+  right: 4.65vw;
+}
+.pict10 {
+  width: 23.125vw;
+  height: 6.1vw;
+  position: absolute;
+  background-image: url(../images/eye2.svg);
+  background-repeat: no-repeat;
+  background-size: auto 6.1vw;
+  bottom: -0.56vw;
+  left: 38.47vw;
+  animation: pict_10 2s ease infinite;
+}

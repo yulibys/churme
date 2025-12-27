@@ -1,0 +1,13 @@
+/* @media screen and (max-width: 414px) and (orientation: portrait) {
+  .section-1 {
+    width: 100vw;
+    height: 169.08vw;
+    background-image: url(../images/map_adap.svg);
+    background-repeat: no-repeat;
+    background-size: 1500vw 169.08vw;
+    position: relative;
+    left: 0;
+    top: 0;
+    animation: map_adap 6s infinite;
+  }
+} */
